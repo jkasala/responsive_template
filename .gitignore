@@ -1,8 +1,12 @@
 #Sass cache
 *.scssc
 
+#Sass maps
+*.map
+
 # Windows image file caches
 Thumbs.db
 
 # Folder config file
 Desktop.ini
+

@@ -5,7 +5,7 @@ $footer-height: 140px;
 body {
 	min-height: 100%;
 	width: 100%;
-	margin-bottom: $footer-height;
+	font-size:14pt;
 }
 
 .nav-container {
@@ -17,6 +17,10 @@ body {
 	margin: 0 auto;
 	border: 0px;
 	background-color: transparent;
+}
+
+.jumbotron {
+	padding:30px 0;
 }
 
 .navbar-brand {
@@ -40,21 +44,25 @@ body {
 }
 
 .content {
-	padding: 0px 10px 0px 10px;
-	margin: 0 auto;
+	padding: 0px 15px 0px 15px;
+	margin: 0 auto 40px auto;
+	max-width: $container-width;
+}
+
+.header {
+	background-color: transparent;
 }
 
 .footer {
-	position: absolute;
-	bottom: 0;
+/*	position: absolute;
+	bottom: 0; */ /* uncomment for 'sticky footer' */
 	width: 100%;
-	height: $footer-height;
 	background-color: $nav-color;
 	
 	.container {
 		width:100%;
 		max-width: $container-width;
-		padding: 0 15px;
+		padding:0;
 		
 		.row > div {
 			padding:10px 20px;
